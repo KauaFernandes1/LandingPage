@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Escola DNC</title>
+</head>
+
+<body>
+    <!-----------------------------MENU SUPERIOR -------------------------------------->  
+    <div id="Menusup">
+        <a href="https://www.escoladnc.com.br/" id> <img src="./Imagens/Logo.svg" id="logo" alt="Error"> </a>
+        <h1 id="primeiros">Dê os primeiros passos da <br> sua carreira em Tecnologia</h1>
+        <p id="inscreva">Inscreva-se no curso gratuito de Introdução à <br> Tecnologia da DNC School 
+        e aprenda os principais <br> fundamentos para construir experiências efetivas.</p>
+    <div>
+
+    <!--------------------------------------MENU ICONES--------------------------------->
+    <div id="Menuinfo">
+        <p class="infotext"> <img src="./Icones/certificado.svg" class="icone" alt=""> Certificado de conclusão</p>
+        <p class="infotext"> <img src="./Icones/relogio.svg" class="icone" alt="" >4 horas de conteúdo</p>
+        <p class="infotext"> <img src="./Icones/video.svg"  class="icone" alt=""> Aulas online gravadas</p>
+    </div>
+
+    <!----------------------------------------VIDEO DEPOIMENTO--------------------------------------->
+    <div id="secaovideo">
+
+         <iframe width="502" height="283" id="video" src="https://www.youtube.com/embed/PZza3gOsMTk" title="REUNIMOS NOSSOS COLABORADORES EM UM TEATRO | Conferência DNC - Q4 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+       
+         <div>
+            <h1 id="titulovideo" class="textosvideo"> Aprenda com especialistas <br> e comece seu primeiro projeto </h1> <br><br>
+            <p id="paragrafovideo" class="textosvideo">Conheça o processo de desenvolvimento e entenda como utilizar os principais <br> métodos e ferramentas da área para resolver problemas complexos.
+            <br> Conquiste seu certificado e desenvolva um projeto prático <br> para aplicar seus conhecimentos.</p>
+        </div>
+    </div>
+
+    <!--CARROSSEL-->
+
+    <div id="carrossel">
+        <h1 id="titulocarrossel"> Mais de 500 alunos já iniciaram seus estudos</h1>
+        
+        <!-- CARDS-->
+        <div id="divcards">
+
+
+        </div>
+        <img id="setadireita" onclick="Rolarparadireita()" class="setas" src="./IconesCarrossel/setadestra.svg">
+        <img  id="leonardo"  class="imgcarrossel"  src="./IconesCarrossel/leoo.svg" alt="error">
+        <img  id="samanta" class="imgcarrossel"  src="./IconesCarrossel/samanta.svg" alt="error">
+        <img  id="bruna" class="imgcarrossel"  src="./IconesCarrossel/bruna.svg" alt="error">
+        <img id="setaesquerda"  onclick="Rolarparaesquerda()" class="setas" src="./IconesCarrossel/seta.svg">
+        
+        
+    </div>
+
+    <!---------------FORMULARIO------->
+    
+    <div id="formulario">
+        
+       <h1 id="tituloformulario">Comece agora mesmo e dê o próximo passo da sua carreira</h1>
+         <form action="https://api.sheetmonkey.io/form/x8AwysZVaR9u7ZVYSudsgZ" method="post">
+            <input type="text" placeholder=" Nome" name="Name" required> <br>
+            <input type="email" placeholder=" Email" name="Email" required> <br>
+            <input type="telefone" placeholder=" Telefone" name="Phone"> <br>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+            <button>Acesse a ementa grátis</button>
+        </form>
+    </div>
+
+    <script src="index.js" ></script>
+</body>
+</html>
